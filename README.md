@@ -11,6 +11,6 @@ We implement this model based on tensorflow, which enables this model to be trai
 ```
     cd src
     python GenerateEmbeddings.py
-	python DANN-DDI.py
+    python DANN-DDI.py
 ```
 where the file `GenerateEmbeddings.py` is to generate representation vectors of the drugs by using SDNE which is typical representation learning method, and `DANN-DDI.py` is using representation vectors to train this model and predict potential interactions between drug-drug pairs.
